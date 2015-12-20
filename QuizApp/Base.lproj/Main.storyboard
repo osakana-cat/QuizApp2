@@ -71,8 +71,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZH-Pr-1aZ">
-                                <rect key="frame" x="303" y="392" width="75" height="30"/>
-                                <state key="normal" title="次の問題へ"/>
+                                <rect key="frame" x="326" y="392" width="30" height="30"/>
+                                <state key="normal" title="次へ"/>
                                 <connections>
                                     <action selector="nextProblem:" destination="tYW-bR-Iu9" eventType="touchUpInside" id="TZb-sp-93k"/>
                                 </connections>

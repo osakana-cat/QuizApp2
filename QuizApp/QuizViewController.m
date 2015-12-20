@@ -94,7 +94,7 @@
         self.nextButton.hidden = YES;
         
     //結果表示画面
-        percentage = correctAnswers /totalProblems*100;
+        percentage = correctAnswers /(double)totalProblems*100;
        
         NSString *result =[NSString stringWithFormat:@"あなたの正答率は%ld％です。",percentage];
         self.quiz.text = result;
