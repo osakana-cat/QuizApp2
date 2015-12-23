@@ -15,9 +15,13 @@
 @property(nonatomic,weak) IBOutlet UITextView *quiz;
 
 
-//ボタン
+//次へボタン
 @property(nonatomic,weak) IBOutlet UIButton *nextButton;
 
+
+//マルバツボタン
+@property(nonatomic,weak) IBOutlet UIButton *answerIsTrue;
+@property(nonatomic,weak) IBOutlet UIButton *answerIsFalse;
 
 //ボタン
 - (IBAction)answerIsTrue:(id)sender;

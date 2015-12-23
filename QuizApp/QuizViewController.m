@@ -50,6 +50,10 @@
     //隠すのがYES
     self.nextButton.hidden = NO;
 
+    //マルバツボタンは非表示
+    self.answerIsFalse.hidden = YES;
+    self.answerIsTrue.hidden = YES;
+
    
 }
 
@@ -67,7 +71,13 @@
     
     }
     
+    //隠してあるNEXTボタンを表示させ、ボタンが押されたらnextProblemメソッドに飛ぶ
     self.nextButton.hidden = NO;
+    
+    //マルバツボタンは非表示
+    self.answerIsFalse.hidden = YES;
+    self.answerIsTrue.hidden = YES;
+
 
 }
 
@@ -76,11 +86,14 @@
     
 
     currentProblem++;
-
+    
     
     //これまで出題した問題が、提示問題数に達していない場合
     if (currentProblem <= totalProblems) {
         
+    //nextButtonが押された時にマルバツボタンを表示
+    self.answerIsFalse.hidden = NO;
+    self.answerIsTrue.hidden = NO;
         
     //次の問題の問題文を提示
 
@@ -90,10 +103,11 @@
     //全問題解き終わった場合
     } else {
         
+        
         //次の問題へ行くボタンを隠す
         self.nextButton.hidden = YES;
-        
-    //結果表示画面
+ 
+        //結果表示画面
         percentage = correctAnswers /(double)totalProblems*100;
        
         NSString *result =[NSString stringWithFormat:@"あなたの正答率は%ld％です。",percentage];

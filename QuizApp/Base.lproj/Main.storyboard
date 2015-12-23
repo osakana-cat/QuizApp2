@@ -82,6 +82,8 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="answerIsFalse" destination="1I9-rA-lZe" id="7B1-AE-jHA"/>
+                        <outlet property="answerIsTrue" destination="a0e-v3-7MH" id="YAl-GR-0Q6"/>
                         <outlet property="nextButton" destination="wZH-Pr-1aZ" id="LQe-Rd-VEn"/>
                         <outlet property="quiz" destination="g2w-Uf-1mq" id="0Vl-iy-mc3"/>
                     </connections>
