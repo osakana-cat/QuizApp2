@@ -15,13 +15,16 @@
 		3E2CA58B1C1D56A900699DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CA5891C1D56A900699DE7 /* LaunchScreen.storyboard */; };
 		3E2CA5931C1D612C00699DE7 /* question_mark1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CA5921C1D612C00699DE7 /* question_mark1.png */; };
 		3E2CA5951C1D62B800699DE7 /* question_mark2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CA5941C1D62B800699DE7 /* question_mark2.png */; };
-		3E2CA5981C1D683A00699DE7 /* batu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CA5961C1D683A00699DE7 /* batu.png */; };
-		3E2CA5991C1D683A00699DE7 /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2CA5971C1D683A00699DE7 /* maru.png */; };
 		3E2CA59E1C1F142A00699DE7 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CA59D1C1F142A00699DE7 /* QuizViewController.m */; };
+		3E3678E21C3D3E1200D4837F /* right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E3678E11C3D3E1200D4837F /* right.mp3 */; };
+		3EC9062F1C2E7A5600F32C84 /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9062E1C2E7A5600F32C84 /* maru.png */; };
+		3EE92E291C2EA81900F0EB5A /* maru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EE92E281C2EA81900F0EB5A /* maru.mp3 */; };
+		3EE92E2B1C2EA82400F0EB5A /* batu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EE92E2A1C2EA82400F0EB5A /* batu.mp3 */; };
+		3EE92E2D1C2EC41A00F0EB5A /* batu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE92E2C1C2EC41A00F0EB5A /* batu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E2CA5781C1D56A900699DE7 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2CA5781C1D56A900699DE7 /* QuizApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2CA57C1C1D56A900699DE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E2CA57E1C1D56A900699DE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E2CA57F1C1D56A900699DE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,10 +36,13 @@
 		3E2CA58C1C1D56A900699DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E2CA5921C1D612C00699DE7 /* question_mark1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_mark1.png; sourceTree = "<group>"; };
 		3E2CA5941C1D62B800699DE7 /* question_mark2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_mark2.png; sourceTree = "<group>"; };
-		3E2CA5961C1D683A00699DE7 /* batu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batu.png; sourceTree = "<group>"; };
-		3E2CA5971C1D683A00699DE7 /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru.png; sourceTree = "<group>"; };
 		3E2CA59C1C1F142A00699DE7 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
 		3E2CA59D1C1F142A00699DE7 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		3E3678E11C3D3E1200D4837F /* right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = right.mp3; sourceTree = "<group>"; };
+		3EC9062E1C2E7A5600F32C84 /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru.png; sourceTree = "<group>"; };
+		3EE92E281C2EA81900F0EB5A /* maru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maru.mp3; sourceTree = "<group>"; };
+		3EE92E2A1C2EA82400F0EB5A /* batu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = batu.mp3; sourceTree = "<group>"; };
+		3EE92E2C1C2EC41A00F0EB5A /* batu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,7 @@
 		3E2CA56F1C1D56A900699DE7 = {
 			isa = PBXGroup;
 			children = (
-				3E2CA57A1C1D56A900699DE7 /* QuizApp */,
+				3E2CA57A1C1D56A900699DE7 /* QuizApp2 */,
 				3E2CA5791C1D56A900699DE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,12 +67,13 @@
 		3E2CA5791C1D56A900699DE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E2CA5781C1D56A900699DE7 /* QuizApp.app */,
+				3E2CA5781C1D56A900699DE7 /* QuizApp2.app */,
 			);
 			name = Products;
+			path = QuizApp2;
 			sourceTree = "<group>";
 		};
-		3E2CA57A1C1D56A900699DE7 /* QuizApp */ = {
+		3E2CA57A1C1D56A900699DE7 /* QuizApp2 */ = {
 			isa = PBXGroup;
 			children = (
 				3E2CA57E1C1D56A900699DE7 /* AppDelegate.h */,
@@ -81,14 +88,17 @@
 				3E2CA58C1C1D56A900699DE7 /* Info.plist */,
 				3E2CA57B1C1D56A900699DE7 /* Supporting Files */,
 			);
-			path = QuizApp;
+			path = QuizApp2;
 			sourceTree = "<group>";
 		};
 		3E2CA57B1C1D56A900699DE7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E2CA5961C1D683A00699DE7 /* batu.png */,
-				3E2CA5971C1D683A00699DE7 /* maru.png */,
+				3E3678E11C3D3E1200D4837F /* right.mp3 */,
+				3EE92E2A1C2EA82400F0EB5A /* batu.mp3 */,
+				3EE92E281C2EA81900F0EB5A /* maru.mp3 */,
+				3EC9062E1C2E7A5600F32C84 /* maru.png */,
+				3EE92E2C1C2EC41A00F0EB5A /* batu.png */,
 				3E2CA5941C1D62B800699DE7 /* question_mark2.png */,
 				3E2CA5921C1D612C00699DE7 /* question_mark1.png */,
 				3E2CA57C1C1D56A900699DE7 /* main.m */,
@@ -99,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E2CA5771C1D56A900699DE7 /* QuizApp */ = {
+		3E2CA5771C1D56A900699DE7 /* QuizApp2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E2CA58F1C1D56A900699DE7 /* Build configuration list for PBXNativeTarget "QuizApp" */;
+			buildConfigurationList = 3E2CA58F1C1D56A900699DE7 /* Build configuration list for PBXNativeTarget "QuizApp2" */;
 			buildPhases = (
 				3E2CA5741C1D56A900699DE7 /* Sources */,
 				3E2CA5751C1D56A900699DE7 /* Frameworks */,
@@ -111,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = QuizApp;
+			name = QuizApp2;
 			productName = QuizApp;
-			productReference = 3E2CA5781C1D56A900699DE7 /* QuizApp.app */;
+			productReference = 3E2CA5781C1D56A900699DE7 /* QuizApp2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E2CA5731C1D56A900699DE7 /* Build configuration list for PBXProject "QuizApp" */;
+			buildConfigurationList = 3E2CA5731C1D56A900699DE7 /* Build configuration list for PBXProject "QuizApp2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -143,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E2CA5771C1D56A900699DE7 /* QuizApp */,
+				3E2CA5771C1D56A900699DE7 /* QuizApp2 */,
 			);
 		};
 /* End PBXProject section */
@@ -155,11 +165,14 @@
 			files = (
 				3E2CA5931C1D612C00699DE7 /* question_mark1.png in Resources */,
 				3E2CA58B1C1D56A900699DE7 /* LaunchScreen.storyboard in Resources */,
+				3EE92E2D1C2EC41A00F0EB5A /* batu.png in Resources */,
+				3EE92E2B1C2EA82400F0EB5A /* batu.mp3 in Resources */,
 				3E2CA5951C1D62B800699DE7 /* question_mark2.png in Resources */,
+				3E3678E21C3D3E1200D4837F /* right.mp3 in Resources */,
+				3EE92E291C2EA81900F0EB5A /* maru.mp3 in Resources */,
 				3E2CA5881C1D56A900699DE7 /* Assets.xcassets in Resources */,
 				3E2CA5861C1D56A900699DE7 /* Main.storyboard in Resources */,
-				3E2CA5981C1D683A00699DE7 /* batu.png in Resources */,
-				3E2CA5991C1D683A00699DE7 /* maru.png in Resources */,
+				3EC9062F1C2E7A5600F32C84 /* maru.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +296,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = QuizApp/Info.plist;
+				INFOPLIST_FILE = QuizApp2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.QuizApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.QuizApp2;
+				PRODUCT_NAME = QuizApp2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -296,11 +309,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = QuizApp/Info.plist;
+				INFOPLIST_FILE = QuizApp2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.QuizApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.QuizApp2;
+				PRODUCT_NAME = QuizApp2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -308,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E2CA5731C1D56A900699DE7 /* Build configuration list for PBXProject "QuizApp" */ = {
+		3E2CA5731C1D56A900699DE7 /* Build configuration list for PBXProject "QuizApp2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E2CA58D1C1D56A900699DE7 /* Debug */,
@@ -317,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E2CA58F1C1D56A900699DE7 /* Build configuration list for PBXNativeTarget "QuizApp" */ = {
+		3E2CA58F1C1D56A900699DE7 /* Build configuration list for PBXNativeTarget "QuizApp2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E2CA5901C1D56A900699DE7 /* Debug */,

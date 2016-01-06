@@ -7,9 +7,9 @@
 //
 
 #import "QuizViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface QuizViewController (){
-
     
     //出題する問題数
     NSInteger totalProblems;
@@ -26,10 +26,59 @@
     BOOL answer;
 
 }
+//音楽
+@property (strong, nonatomic) AVAudioPlayer *player;
+
+
+//@property (strong, nonatomic) AVAudioPlayer *batuPlayer;
+
+
 
 @end
 
+
 @implementation QuizViewController
+
+
+- (void)playSoundMaru {
+
+    
+    NSError *error = nil;
+    //音楽ファイルのファイルパス(音楽ファイルがデータ上どこにあるか)を作成
+    // 再生する audio ファイルのパスを取得
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *path = [bundle pathForResource:@"right" ofType:@"mp3"];
+    // パスから、再生するURLを作成する
+    NSURL *url = [NSURL fileURLWithPath:path];
+    // auido を再生するプレイヤーを作成する
+    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    // エラーが起きたとき
+    if (error != nil) { //エラーがあった場合
+        return;
+    }
+    [self.player play];
+
+}
+
+- (void)playSoundBatu {
+    
+    NSError *error = nil;
+    //音楽ファイルのファイルパス(音楽ファイルがデータ上どこにあるか)を作成
+    // 再生する audio ファイルのパスを取得
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *path = [bundle pathForResource:@"batu" ofType:@"mp3"];
+    // パスから、再生するURLを作成する
+    NSURL *url = [NSURL fileURLWithPath:path];
+    // auido を再生するプレイヤーを作成する
+    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    // エラーが起きたとき
+    if (error != nil) { //エラーがあった場合
+        return;
+    }
+    [self.player play];
+}
+
+
 
 
 //「○」ボタンが押された場合
@@ -39,10 +88,12 @@
     
          self.quiz.text = @"正解です";
         correctAnswers++;
+        [self playSoundMaru];
         
     }else{
         
         self.quiz.text = @"不正解です";
+        [self playSoundBatu];
         
     }
 
@@ -64,10 +115,12 @@
     
     self.quiz.text = @"正解です";
     correctAnswers++;
+    [self playSoundMaru];
         
     }else{
     
     self.quiz.text = @"不正解です";
+    [self playSoundBatu];
     
     }
     
